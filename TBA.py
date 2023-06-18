@@ -87,8 +87,6 @@ def token_analyzer(ForPythonSyntax):
         
 
 st.title('Lexical Analyzer & Parser ')
-github_gist("https://gist.github.com/glorianatasyaaa/e02d92609dc092cc371448a439e3f209")
-
 with st.form(key='Input For Loop Python Code'):
     sentences = st.text_input('Masukkan Code')
     st.form_submit_button('Check')
@@ -99,3 +97,4 @@ parser(sentences)
 
 st.subheader("Token Analysis Result")
 token_analyzer(sentences)
+github_gist("https://gist.github.com/glorianatasyaaa/e02d92609dc092cc371448a439e3f209")
