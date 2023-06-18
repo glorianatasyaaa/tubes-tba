@@ -2,7 +2,7 @@ import streamlit as st
 
 with st.sidebar:
     st.title('Lexical Analyzer & Parser')
-    st.subheader('by Kelompok 4 (IF4411) \n'
+    st.subheader('by Kelompok 4 (IF-45-10) \n'
                  '1. Gerald Shabran Rasyad (1301213435)\n'
                  '2. Gloria Natasya Irene Sidebang (1301213445) \n'
                  '3. Dewa Putu Fajar Wijayakusuma (1301213161)')
@@ -88,7 +88,7 @@ def token_analyzer(ForPythonSyntax):
 st.title('Lexical Analyzer & Parser ')
 
 sentences = st.text_area("Input For Loop Python Code", height=200)
-st.form_submit_button('Check')
+st.button('Check')
 st.subheader('Lexical Analyzer Checker')
 parser(sentences)
 
