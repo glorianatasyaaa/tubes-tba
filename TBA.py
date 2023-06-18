@@ -30,7 +30,7 @@ def parser(sentences):
         state += 1
 
     if out and state == len(check) + 1:
-        st.info("Input diterima!")
+        st.success("Input diterima!")
     elif out and state != len(check) + 1:
         st.error(f"Error: Akhir input yang tidak diharapkan, terjebak di state {state}")
     else:
@@ -83,7 +83,7 @@ def token_analyzer(ForPythonSyntax):
         with colt1:
             st.info(f"Token: {token}")
         with colt2:
-            st.info(f"Type: {token_type}")
+            st.success(f"Type: {token_type}")
         
 
 st.title('Lexical Analyzer & Parser ')
