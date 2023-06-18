@@ -93,7 +93,7 @@ with st.form(key='Input For Loop Python Code'):
 
 
 st.subheader('Lexical Analyzer Checker')
-parser(senteces)
+parser(sentences)
 
 st.subheader("Token Analysis Result")
-token_analyzer(senteces)
+token_analyzer(sentences)
