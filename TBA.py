@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_embedcode import github_gist
 
 with st.sidebar:
     st.title('Lexical Analyzer & Parser')
