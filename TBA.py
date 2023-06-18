@@ -90,9 +90,10 @@ st.title('Lexical Analyzer & Parser ')
 with st.form(key='Input For Loop Python Code'):
     sentences = st.text_input('Masukkan Code')
     st.form_submit_button('Check')
-   
+
+senteces = code 
 st.subheader('Lexical Analyzer Checker')
-parser(sentences)
+parser(code)
 
 st.subheader("Token Analysis Result")
-token_analyzer(sentences)
+token_analyzer(code)
