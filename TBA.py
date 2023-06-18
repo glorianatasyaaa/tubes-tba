@@ -3,7 +3,7 @@ from streamlit_embedcode import github_gist
 
 with st.sidebar:
     st.title('Simple Lexical Analyzer & Parser ')
-    st.('Pyhton Looping Syntax')
+    st.title('Pyhton Looping Syntax')
     st.subheader('by Kelompok 4 (IF-45-10) \n'
                  '1. Gerald Shabran Rasyad (1301213435)\n'
                  '2. Gloria Natasya Irene Sidebang (1301213445) \n'
