@@ -77,7 +77,7 @@ def token_analyzer(ForPythonSyntax):
             st.error(f"Error: Invalid token '{ForPythonSyntax[0]}'")
             break
 
-    colt1, colt2 = st.columns([10, 2])
+    colt1, colt2 = st.columns([8, 4])
     for token, token_type in tokens:
         with colt1:
             st.info(f"Token: {token}")
