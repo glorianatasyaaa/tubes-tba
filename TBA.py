@@ -97,4 +97,4 @@ parser(sentences)
 
 st.subheader("Token Analysis Result")
 token_analyzer(sentences)
-github_gist("https://gist.github.com/glorianatasyaaa/e02d92609dc092cc371448a439e3f209", width = 600)
+github_gist("https://gist.github.com/glorianatasyaaa/e02d92609dc092cc371448a439e3f209", width = 700)
