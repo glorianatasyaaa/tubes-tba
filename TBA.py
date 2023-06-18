@@ -87,8 +87,10 @@ def token_analyzer(ForPythonSyntax):
 
 st.title('Lexical Analyzer & Parser ')
 
-sentences = st.text_area("Input For Loop Python Code", height=200)
-st.button('Check')
+with st.form(key='Input For Loop Python Code'):
+    sentences = st.text_input('Masukkan Code')
+    st.form_submit_button('Check')
+   
 st.subheader('Lexical Analyzer Checker')
 parser(sentences)
 
