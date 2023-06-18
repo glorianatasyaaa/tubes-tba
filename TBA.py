@@ -91,7 +91,7 @@ with st.form(key='Input For Loop Python Code'):
     sentences = st.text_input('Masukkan Code')
     st.form_submit_button('Check')
 
-senteces = code 
+code = senteces 
 st.subheader('Lexical Analyzer Checker')
 parser(code)
 
