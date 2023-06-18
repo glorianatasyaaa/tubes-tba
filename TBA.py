@@ -86,10 +86,7 @@ def token_analyzer(ForPythonSyntax):
         
 
 st.title('Lexical Analyzer & Parser ')
-
-w = st.slider("width", 300, 800, 710)
-t = https://gist.github.com/glorianatasyaaa/e02d92609dc092cc371448a439e3f209
-github_gist(t, width=w)
+github_gist("https://gist.github.com/glorianatasyaaa/e02d92609dc092cc371448a439e3f209")
 
 with st.form(key='Input For Loop Python Code'):
     sentences = st.text_input('Masukkan Code')
