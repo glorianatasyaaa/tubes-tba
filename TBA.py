@@ -93,7 +93,8 @@ with st.form(key='Input For Loop Python Code'):
 
 
 st.subheader('Lexical Analyzer Checker')
-parser(sentences)
+if sentences != "" : 
+    parser(sentences)
 
 st.subheader("Token Analysis Result")
 token_analyzer(sentences)
