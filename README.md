@@ -1,5 +1,5 @@
 
-# Lexical Analyzer & Parser Python For Loop Syntax  
+## Simple Lexical Analyzer and Parser for Python Looping Syntax 
 
 
 To run the code , clink link in below
