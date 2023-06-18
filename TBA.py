@@ -88,12 +88,12 @@ def token_analyzer(ForPythonSyntax):
 st.title('Lexical Analyzer & Parser ')
 
 with st.form(key='Input For Loop Python Code'):
-    sentences = st.text_input('Masukkan Code')
+    kode = st.text_input('Masukkan Code')
     st.form_submit_button('Check')
 
-code = senteces 
+senteces = kode 
 st.subheader('Lexical Analyzer Checker')
-parser(code)
+parser(senteces)
 
 st.subheader("Token Analysis Result")
-token_analyzer(code)
+token_analyzer(senteces)
