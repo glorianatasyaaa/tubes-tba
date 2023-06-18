@@ -26,7 +26,7 @@ def parser(sentences):
             if sentence != check[state - 1]:
                 out = False
                 break
-        state += 1
+    state += 1
 
     if out and state == len(check) + 1:
         st.info("Input diterima!")
